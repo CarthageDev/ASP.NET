@@ -27,7 +27,7 @@ namespace UnitTestProject1
             //act
             var result = valuesController.calculeBmi(2,2);
             //assert
-            Assert.AreEqual(0.5, result);
+            Assert.AreEqual(0, result);
         }
 
         public void TestMethod3()
