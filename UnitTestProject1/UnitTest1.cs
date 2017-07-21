@@ -29,5 +29,17 @@ namespace UnitTestProject1
             //assert
             Assert.AreEqual(0.5, result);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            // Arrange
+            var valuesController = new ValuesController();
+
+            //act
+            var result = valuesController.calculeBmi(2, 4);
+            //assert
+            Assert.AreEqual(1, result);
+        }
     }
 }
