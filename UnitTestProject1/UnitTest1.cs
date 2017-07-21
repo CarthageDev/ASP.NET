@@ -14,31 +14,9 @@ namespace UnitTestProject1
             var valuesController = new ValuesController();
 
             //act
-            var result = valuesController.calculeBmi(0, 0);
+            var result = valuesController.calculeBmi(1,1);
             //assert
-            Assert.AreEqual(0, result);
-        }
-
-        public void TestMethod2()
-        {
-            // Arrange
-            var valuesController = new ValuesController();
-
-            //act
-            var result = valuesController.calculeBmi(2,2);
-            //assert
-            Assert.AreEqual(0, result);
-        }
-
-        public void TestMethod3()
-        {
-            // Arrange
-            var valuesController = new ValuesController();
-
-            //act
-            var result = valuesController.calculeBmi(0, 0);
-            //assert
-            Assert.AreEqual(0, result);
+            Assert.AreEqual(1, result);
         }
     }
 }
