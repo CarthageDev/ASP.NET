@@ -19,7 +19,7 @@ namespace UnitTestProject1
             Assert.AreEqual(1, result);
         }
         [TestMethod]
-        public void TestMethod2()
+        public void TestMethod3()
         {
             // Arrange
             var valuesController = new ValuesController();
